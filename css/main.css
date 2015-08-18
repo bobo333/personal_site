@@ -26,6 +26,12 @@ a, a:visited, a:hover {
     vertical-align: middle;
 }
 
+@media (max-width: 768px) {
+    .section-title {
+        text-align: center;
+   }
+}
+
 .header {
     margin-bottom: 20px;
 }
@@ -54,6 +60,18 @@ a, a:visited, a:hover {
 
 .info-icons .info-link:last-child {
     margin-right: 0px;
+}
+
+.languages {
+    font-style: italic;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .languages {
+        text-align: center;
+    }    
 }
 
 .main-img-container {
