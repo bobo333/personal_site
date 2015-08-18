@@ -27,6 +27,14 @@ a, a:visited, a:hover {
     vertical-align: middle;
 }
 
+@media (min-width: 769px) {
+    .md-vertical-align {
+        float: none;
+        display: inline-block;
+        vertical-align: middle;
+    }
+}
+
 .section-title {
     margin-bottom: 20px;
 }
