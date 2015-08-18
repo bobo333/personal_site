@@ -27,7 +27,7 @@ a, a:visited, a:hover {
     vertical-align: middle;
 }
 
-@media (min-width: 769px) {
+@media (min-width: 992px) {
     .md-vertical-align {
         float: none;
         display: inline-block;
@@ -37,11 +37,12 @@ a, a:visited, a:hover {
 
 .section-title {
     margin-bottom: 20px;
+    text-align: center;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 992px) {
     .section-title {
-        text-align: center;
+        text-align: left;
    }
 }
 
@@ -53,9 +54,13 @@ a, a:visited, a:hover {
     margin-bottom: 40px;
 }
 
-@media (max-width: 768px) {
+.blurb {
+    margin-bottom: 40px;
+}
+
+@media (min-width: 992px) {
     .blurb {
-        margin-bottom: 40px;
+        margin-bottom: 0px;
     }    
 }
 
@@ -79,9 +84,10 @@ a, a:visited, a:hover {
     font-style: italic;
     font-size: 16px;
     margin-bottom: 20px;
+    text-align: center;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 992px) {
     .languages {
         text-align: center;
     }    
