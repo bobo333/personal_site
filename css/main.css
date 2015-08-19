@@ -40,12 +40,6 @@ a, a:visited, a:hover {
     text-align: center;
 }
 
-@media (min-width: 992px) {
-    .section-title {
-        text-align: left;
-   }
-}
-
 .header {
     margin-bottom: 40px;
 }
@@ -109,7 +103,7 @@ a, a:visited, a:hover {
 
 @media (max-width: 991px) {
     .main-img {
-        max-height: 500px;
+        max-height: 350px;
     }
 }
 
