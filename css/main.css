@@ -107,9 +107,14 @@ a, a:visited, a:hover {
 }
 
 .project-logo-container {
-    max-width: 200px;
     display: inline-block;
     vertical-align: middle;
+}
+
+.project-logo {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100px;
 }
 
 .project-title {
@@ -131,4 +136,10 @@ a, a:visited, a:hover {
 
 .blog-title {
     text-decoration: underline;
+}
+
+.blog-logo {
+    width: 100%;
+    max-width: 136px;
+    margin: 0 auto;
 }
