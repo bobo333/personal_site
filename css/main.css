@@ -129,3 +129,15 @@ a, a:visited, a:hover {
     display: inline-block;
     vertical-align: middle;
 }
+
+.brag {
+    font-size: 12px;
+    font-style: italic;
+}
+
+.footer {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 12px;
+    font-style: italic;
+}
