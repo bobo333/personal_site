@@ -141,17 +141,16 @@
         </div>
 
         <div class="col-xs-12 col-sm-7 blurb">
-            <p>Software engineer and fullstack web developer. Currently working at <a href="https://radius.com" target="_blank" title="Radius">Radius</a> with big data systems and analysis. Has previously worked on digital art display and distribution with <a href="https://depict.com" target="_blank" title="Depict">Depict</a>, experiential content with <a href="https://gophigital.com" target="_blank" title="Phigital">Phigital</a>, and semiconductor processing with <a href="http://ibm.com" target="_blank" title="IBM">IBM</a>.</p>
+            <p>Software engineer and fullstack web developer. Currently working at <a href="https://square.com" target="_blank" title="Square">Square</a> with infrastructure and SRE responsibilities. Previously led a data engineering team at <a href="https://newsroom.kabbage.com/news/company/kabbage-acquires-radius/" target="_blank" title="Radius">Radius</a>, did digital art display and distribution with Depict, experiential content with Phigital, and semiconductor processing with <a href="http://ibm.com" target="_blank" title="IBM">IBM</a>.</p>
         </div>
 
         <div class="col-xs-10 col-sm-7">
             <ul class="skills">
-                <li>Python</li>
-                <li>Ruby (and RoR)</li>
-                <li>Golang</li>
+                <li>Python / Golang</li>
                 <li>PostgreSQL / MySQL</li>
-                <li>Javascript (and Node.js)</li>
-                <li>Apache / AWS / Nginx / Heroku</li>
+                <li>Docker / Kubernetes</li>
+                <li>Javascript / Node.js</li>
+                <li>Nginx / AWS / Apache / Heroku</li>
                 <li>Mac OS / Linux / Windows</li>
             </ul>
         </div>
@@ -162,34 +161,30 @@
             <div class="section-title"><h2>Recent Projects</h2></div>
             <ul>
                 <li class="section-item row">
-                    <a href="https://radius.com" target="_blank" title="Radius">
+                    <div class="section-item-logo-container col-xs-3 vertical-align col-sm-3 col-sm-offset-1">
+                        <img src="img/logos/square.jpg" class="img-responsive section-item-logo">
+                    </div><div class="section-item-text col-xs-9 vertical-align col-sm-7">
+                        <div class="section-item-title">Square</div>
+                        I work on the e-commerce infrastructure team, maintaining the platform and systems that host millions of customer websites and online storefronts.
+                    </div>
+                </li>
+                <li class="section-item row">
+                    <a href="https://newsroom.kabbage.com/news/company/kabbage-acquires-radius/" target="_blank" title="Radius">
                         <div class="section-item-logo-container col-xs-3 vertical-align col-sm-3 col-sm-offset-1">
                             <img src="img/logos/radius.png" class="img-responsive section-item-logo">
                         </div><div class="section-item-text col-xs-9 vertical-align col-sm-7">
                             <div class="section-item-title">Radius</div>
-                            I work on the Data Science & Engineering team, which gathers, analyzes, and processes millions of data points to model the individuals and companies of the US economy.
+                            I led a data engineering team, which gathered, analyzed, and processed millions of data points to model the individuals and companies of the US economy.
                         </div>
                     </a>
                 </li>
                 <li class="section-item row">
-                    <a href="https://depict.com" target="_blank" title="Depict">
-                        <div class="section-item-logo-container col-xs-3 vertical-align col-sm-3 col-sm-offset-1">
-                            <img src="img/logos/depict.jpg" class="img-responsive section-item-logo">
-                        </div><div class="section-item-text col-xs-9 vertical-align col-sm-7">
-                            <div class="section-item-title">Depict</div>
-                            I architected, built, and optimized large portions of Depict's digital art display platform. This included database schema, payment implementation, and custom hardware display integration.
-                        </div>
-                    </a>
-                </li>
-                <li class="section-item row">
-                    <a href="http://aboundapp.com" target="_blank" title="Abound">
-                        <div class="section-item-logo-container col-xs-3 vertical-align col-sm-3 col-sm-offset-1">
-                            <img src="img/logos/abound.png" class="img-responsive section-item-logo">
-                        </div><div class="section-item-text col-xs-9 vertical-align col-sm-7">
-                            <div class="section-item-title">Abound</div>
-                            This is my personal finance side project. I architected and built the entire backend, implemented interactive data plotting, and wrote numerous financial calculations.
-                        </div>
-                    </a>
+                    <div class="section-item-logo-container col-xs-3 vertical-align col-sm-3 col-sm-offset-1">
+                        <img src="img/logos/depict.jpg" class="img-responsive section-item-logo">
+                    </div><div class="section-item-text col-xs-9 vertical-align col-sm-7">
+                        <div class="section-item-title">Depict</div>
+                        I architected, built, and optimized large portions of Depict's digital art display platform. This included database schema, payment implementation, and custom hardware display integration.
+                    </div>
                 </li>
             </ul>
         </div>
@@ -198,12 +193,32 @@
             <div class="section-title"><h2>Open Source Contributions</h2></div>
             <ul>
                 <li class="section-item row">
+                    <a href="https://github.com/kontena/kubelet-rubber-stamp" target="_blank" title="Helm">
+                        <div class="section-item-logo-container col-xs-3 vertical-align col-sm-3 col-sm-offset-1">
+                            <img src="img/logos/go.png" class="img-responsive section-item-logo">
+                        </div><div class="section-item-text col-xs-9 vertical-align col-sm-7">
+                            <div class="section-item-title">Kubelet Rubber Stamp</div>
+                            Kubelet Rubber Stamp is a Kubernetes operator that simplifies the issuing of SSL certificates for internal Kubernetes components. I fixed an import error preventing compilation.
+                        </div>
+                    </a>
+                </li>
+                <li class="section-item row">
+                    <a href="https://github.com/helm/helm" target="_blank" title="Helm">
+                        <div class="section-item-logo-container col-xs-3 vertical-align col-sm-3 col-sm-offset-1">
+                            <img src="img/logos/go.png" class="img-responsive section-item-logo">
+                        </div><div class="section-item-text col-xs-9 vertical-align col-sm-7">
+                            <div class="section-item-title">Helm</div>
+                            Helm is a tool written in Golang that streamlines installing and managing Kubernetes applications. I fixed a bug in the installer script that returned incorrect versioning information.
+                        </div>
+                    </a>
+                </li>
+                <li class="section-item row">
                     <a href="https://github.com/spulec/moto" target="_blank" title="Moto">
                         <div class="section-item-logo-container col-xs-3 vertical-align col-sm-3 col-sm-offset-1">
                             <img src="img/logos/python.png" class="img-responsive section-item-logo">
                         </div><div class="section-item-text col-xs-9 vertical-align col-sm-7">
                             <div class="section-item-title">Moto</div>
-                            Moto is a library that mocks the boto and boto3 python packages for testing integrations with AWS. I fixed a bug involving recursive instance settings when testing the launching of EMR clusters.
+                            Moto is a library that mocks the boto and boto3 Python packages for testing integrations with AWS. I fixed a bug involving recursive instance settings when testing the launching of EMR clusters.
                         </div>
                     </a>
                 </li>
@@ -213,7 +228,7 @@
                             <img src="img/logos/python.png" class="img-responsive section-item-logo">
                         </div><div class="section-item-text col-xs-9 vertical-align col-sm-7">
                             <div class="section-item-title">Pytelegraf</div>
-                            Pytelegraf is a python utility for sending information to InfluxDB via Telegraf (commonly used in the TICK stack). I implemented the HTTP client for emitting data and metrics.
+                            Pytelegraf is a Python utility for sending information to InfluxDB via Telegraf (commonly used in the TICK stack). I implemented the HTTP client for emitting data and metrics.
                         </div>
                     </a>
                 </li>
@@ -223,7 +238,7 @@
                             <img src="img/logos/ruby.png" class="img-responsive section-item-logo">
                         </div><div class="section-item-text col-xs-9 vertical-align col-sm-7">
                             <div class="section-item-title">Elovation</div>
-                            Elovation is a Rails project that calculates and displays Elo and Trueskill ratings for players and teams over time. I made improvements to graphs and visualizations.
+                            Elovation is a Ruby on Rails project that calculates and displays Elo and Trueskill ratings for players and teams over time. I made improvements to graphs and visualizations.
                         </div>
                     </a>
                 </li>
@@ -234,15 +249,13 @@
             <div class="section-title"><h2>Recent Writing</h2></div>
             <ul>
                 <li class="section-item row">
-                    <a href="https://tiny-spaceship.com/" target="_blank" title="The Greatest NBA Team Of All Time — According To The Numbers">
-                        <div class="section-item-logo-container col-xs-3 vertical-align col-sm-3 col-sm-offset-1">
-                            <img src="img/logos/tiny-spaceship.png" class="img-responsive section-item-logo">
-                        </div><div class="section-item-text col-xs-9 vertical-align col-sm-7">
-                            <div class="section-item-title">Reviewer for Tiny Spaceship</div>
-                            I enjoy exploring the world of computer games. I regularly write reviews for titles I've played. 
-                            <br>
-                        </div>
-                    </a>
+                    <div class="section-item-logo-container col-xs-3 vertical-align col-sm-3 col-sm-offset-1">
+                        <img src="img/logos/tiny-spaceship.png" class="img-responsive section-item-logo">
+                    </div><div class="section-item-text col-xs-9 vertical-align col-sm-7">
+                        <div class="section-item-title">Reviewer for Tiny Spaceship</div>
+                        I enjoy exploring the world of computer games. I regularly wrote reviews for titles I've played.
+                        <br>
+                    </div>
                 </li>
                 <li class="section-item row">
                     <a href="https://thecauldron.si.com/determining-the-greatest-nba-team-of-all-time-with-science-4d221ee60c8f" target="_blank" title="The Greatest NBA Team Of All Time — According To The Numbers">
@@ -285,7 +298,7 @@
     </div>
 
   <div class="footer col-xs-12">
-    Copyright &copy; 2017 Steven Cipriano
+    Copyright &copy; 2019 Steven Cipriano
   </div>
 
 </body>
